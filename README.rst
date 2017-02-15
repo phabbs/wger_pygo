@@ -1,8 +1,5 @@
-
-
-[![Build Status](https://www.bitrise.io/app/83acac4fa8a7643e.svg?token=KlXUQom3675zIXd5K2xf7w&branch=master)](http://devcenter.bitrise.io)
-
-[![Build Status](https://travis-ci.org/andela/wger_pygo.svg?branch=dami)](https://travis-ci.org/andela/wger_pygo)
+.. image:: https://travis-ci.org/andela/wger_pygo.svg?branch=master
+    :target: https://travis-ci.org/andela/wger_pygo
 
 Thank you for downloading wger Workout Manager. wger (ˈvɛɡɐ) is a free, open source web
 application that manages your exercises and personal workouts, weight and diet
