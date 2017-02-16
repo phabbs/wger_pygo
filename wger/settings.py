@@ -16,7 +16,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'wger/database.sqlite',
+        'NAME': '',
         'USER': '',
         'PASSWORD': '',
         'HOST': '',
@@ -25,21 +25,21 @@ DATABASES = {
 }
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = '^=lp#l&w_q&zc^s84tiih#itk+*faa63qkw2i1p_#$mi^gr7r6'
+SECRET_KEY = '@*#&hyd7s8nu1srp-!#2hnmg8bz%tu#zycg$4kxf8q@1ecuzr&'
 
 # Your reCaptcha keys
 RECAPTCHA_PUBLIC_KEY = ''
 RECAPTCHA_PRIVATE_KEY = ''
 NOCAPTCHA = True
 
-# The site's URL (e.g. http://www.my-local-gym.com or http://localhost:8000) now http://wger-pygo.herokuapp.com
+# The site's URL (e.g. http://www.my-local-gym.com or http://localhost:8000)
 # This is needed for uploaded files and images (exercise images, etc.) to be
 # properly served.
-SITE_URL = 'http://wger-pygo.herokuapp.com'
+SITE_URL = 'http://localhost:8000'
 
 # Path to uploaded files
 # Absolute filesystem path to the directory that will hold user-uploaded files.
-MEDIA_ROOT = '/home/coop/.local/share/wger/media'
+MEDIA_ROOT = ''
 MEDIA_URL = '/media/'
 
 # Allow all hosts to access the application. Change if used in production.
