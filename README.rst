@@ -1,4 +1,7 @@
-vcg XYjvjjhvjvuguyggivjbvjvbj
+
+.. image:: https://travis-ci.org/andela/wger_pygo.svg?branch=master
+    :target: https://travis-ci.org/andela/wger_pygo
+
 Thank you for downloading wger Workout Manager. wger (ˈvɛɡɐ) is a free, open source web
 application that manages your exercises and personal workouts, weight and diet
 plans. It can also be used as a simple gym management utility, providing different
@@ -7,7 +10,7 @@ easy integration with other projects and tools.
 
 It is written with python/django and uses jQuery and some D3js for charts.
 
-For more details and a live system, refer to the project's site: https://wger.de/
+For more details and a live system, refer to the project's site: https://wger_pygo.herokuapp.com/
 
 
 Installation
@@ -161,10 +164,6 @@ didn't behave as you expected. We can't fix what we don't know about, so please
 report liberally. If you're not sure if something is a bug or not, feel free to
 file a bug anyway.
 
-* **twitter:** https://twitter.com/wger_de
-* **mailing list:** https://groups.google.com/group/wger / wger@googlegroups.com,
-  no registration needed
-* **IRC:** channel #wger on freenode.net, webchat: http://webchat.freenode.net/?channels=wger
 * **issue tracker:** https://github.com/wger-project/wger/issues
 
 
@@ -174,7 +173,7 @@ Sources
 All the code and the content is freely available:
 
 * **Main repository:** https://github.com/wger-project/wger
-* **Mirror:** https://bitbucket.org/rolandgeider/wger
+
 
 
 Licence
