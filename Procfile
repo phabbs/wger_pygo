@@ -1,1 +1,1 @@
-web: gunicorn wger-pygo.herokuapp.com --log-file -
+web: gunicorn wger.wsgi --log-file -
